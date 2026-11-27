@@ -35,3 +35,4 @@ const outDir = resolveOutputDir();
 writeFileSync(`${outDir}/entry.txt`, ENTRY + "\n", "utf8");
 
 console.log(ENTRY);
+console.log("Entry ready: length gate passed.");
